@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<style>
+    .text{
+        background-color: #c63f4b;
+        color: white;
+    }
+
+    #bland{
+        color: white;
+    }
+    
+    body{
+        background-color: #be5b62;
+    }
+
+    @media screen {
+        #gorillaz{ 
+            max-width: 25%;
+            border: .25em solid #1a3732;
+        }
+    }
+
+    #quote{
+        text-align: center;
+        color: white;
+    }
+
+</style>
+<html>
+    <head>
+        <title>HTML Cheat Sheet</title>
+    </head>
+
+    <body>
+        <!--Headings-->
+        <h1 class="text">Heading One</h1>
+        <h2 class="text">Heading two</h2>
+        <h3 class="text">Heading three</h3>
+        <h4 class="text">Heading four</h4>
+        <h5 class="text">Heading five</h5>
+        <h6 class="text">Heading six</h6>
+
+        <a href="blog.html">Check out the blog</a>
+
+        <p id="bland">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni qui veniam ea molestias necessitatibus repellat corporis corrupti voluptas explicabo quae perferendis nisi mollitia consequatur officia vero repudiandae, excepturi et? Obcaecati?
+        </p>
+        <p id="bland">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque delectus placeat nisi repellendus assumenda, quae excepturi eaque repellat ratione non asperiores nesciunt hic, explicabo sapiente laboriosam ab provident sed! Eligendi!</p>
+
+        <!--List practice-->
+        <ul id="bland">
+            <li>This is an unordered list</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+        </ul>
+
+        <ol id="bland">
+            <li>This is an unordered list</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+        </ol>
+        <br>
+
+        <!--Table practice-->
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Sex</th>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>123 Bland ave</td>
+                    <td>Male</td>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>123 Bland ave</td>
+                    <td>Male</td>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>123 Bland ave</td>
+                    <td>Male</td>
+                </tr>
+            </thead>
+        </table>
+
+        <br>
+        <hr>
+        <br>
+        <form action="" method="">
+            <div>
+                <label>First Name</label>
+                <input type="text" name="firstName" placeholder="First Name">
+            </div>
+            <br>
+            <div>
+                <label>Last Name</label>
+                <input type="text" name="lastName" placeholder="Last Name">
+            </div>
+            <br>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email">
+            </div>
+            <br>
+            <div>
+                <label>Birthday</label>
+                <input type="date" name="date">
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+
+        <!--Images-->
+        <a href="https://www.instagram.com/gorillaz/" target="_blank">
+            <img id="gorillaz"src="https://www.gorillaz.com/rmpphoto/images/GORILLAZ_LIVE_Press.jpeg" alt="My Sample Image">
+        </a>
+
+        <!--Quotation practice-->
+        <blockquote id="quote" cite="https://www.magicalquote.com/moviequotes/dont-do-anything-i-would-do/">
+            "Don’t do anything I would do, and definitely don’t do anything I wouldn’t do. There’s a little gray area in there and that’s where you operate."
+        </blockquote>
+        <p id="quote">A neat little Iron Man quote from the <abbr title="Marvel Cinematic Universe">MCU</abbr>.</p>
+
+        <p id="quote">My follow along of the <cite>HTML Crash Course</cite> taught by Brad Traversy with this made by Samuel Adetunji.</p>
+    </body>
+</html>

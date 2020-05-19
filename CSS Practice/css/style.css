@@ -139,6 +139,9 @@ a:active{
     border: 1px solid black;
     margin-top: 15px;
     position: relative;
+    background-image: url('../images/bgimage.jpg');
+    background-repeat: repeat-x;
+    background-size: 75%;
 }
 
 .p-box h1{

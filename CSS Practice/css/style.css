@@ -8,12 +8,100 @@ body{
     margin: 0;
 }
 
-.box-1{
-    background-color: #333333;
-    color: #fff;
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: chocolate;
+}
+
+a:active{
+    color: teal;
 }
 
 .container{
     width: 80%;
     margin: auto;
+}
+
+.button{
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+}
+
+.button:hover{
+    background-color: white;
+    color: #333;
+    border: solid 1px #333;;
+}
+
+.box-1{
+    background-color: #333333;
+    color: #fff;
+    border: 5px teal solid;
+
+    padding: .15em;
+}
+
+.box-1 h1{
+    font-family: Georgia;
+    font-weight: 800;
+    text-decoration: underline tomato;
+}
+
+.box-2{
+    border: 5px dotted #ccc;
+    font-family: Verdana;
+    padding: .25em;
+}
+
+.box-2 h1{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.listed{
+    border: 1px #ccc solid;
+    border-radius: 15px;
+    padding: .25em;
+}
+
+.listed h2{
+    font-size: medium;
+    text-align: center;
+}
+
+.listed ul{
+    list-style: none;
+    padding: 0;
+}
+
+.listed li{
+    padding: 8px;
+    border-bottom: dotted 1px #333;
+    text-align: center;
+}
+
+.form-group input{
+    align-content: right;
+}
+
+.myForm{
+    padding: 20px;
+}
+
+.myForm label{
+    display: block;
+}
+
+.myForm .form-group{
+    padding-bottom: 15px;
+}
+
+.myForm input{
+    padding: 8px;
+    width: 100%;
 }

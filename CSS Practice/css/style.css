@@ -160,3 +160,17 @@ a:active{
     position: fixed;
     top: 400px;
 }
+
+.myList li:first-child{
+    background: red;
+}
+
+.myList li:last-child{
+    background: rebeccapurple;
+    color: seashell;
+    list-style: none;
+}
+
+.myList li:nth-child(even){
+    background: #16b2f0ce
+}

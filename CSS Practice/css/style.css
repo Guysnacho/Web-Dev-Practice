@@ -8,6 +8,10 @@ body{
     margin: 0;
 }
 
+.clr{
+    clear:both;
+}
+
 a{
     text-decoration: none;
     color: black;
@@ -36,14 +40,14 @@ a:active{
 .button:hover{
     background-color: white;
     color: #333;
-    border: solid 1px #333;;
+    border: solid 1px #333;
+    padding: 9px 14px;
 }
 
 .box-1{
     background-color: #333333;
     color: #fff;
     border: 5px teal solid;
-
     padding: .15em;
 }
 
@@ -104,4 +108,12 @@ a:active{
 .myForm input{
     padding: 8px;
     width: 100%;
+}
+
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid #333;
+    padding: 10px;
+    box-sizing: border-box;
 }
